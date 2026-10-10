@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Temporales de Word
+~$*.docx
