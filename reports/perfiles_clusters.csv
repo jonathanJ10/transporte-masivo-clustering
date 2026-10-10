@@ -1,0 +1,6 @@
+grupo,n_estaciones,pasajeros_pico_manana,pasajeros_pico_tarde,pasajeros_valle,proporcion_fin_semana,ocupacion_media_pct,variabilidad_diaria,tiempo_espera_min,porcentaje_transbordos,numero_rutas,distancia_centro_km,sensibilidad_lluvia_pct
+0,25,1534.52,1422.56,979.6,0.83,75.03,0.22,2.9,67.29,10.64,9.26,8.99
+1,50,913.7,430.82,197.48,0.75,54.02,0.3,6.17,12.35,2.88,11.1,7.88
+2,45,488.67,635.47,597.73,0.93,52.05,0.22,4.02,27.86,7.11,2.16,11.77
+3,35,1109.26,916.91,145.11,0.37,66.1,0.19,6.86,7.1,1.94,13.89,5.23
+4,35,764.11,819.83,397.51,0.33,58.65,0.4,5.21,17.7,4.11,4.9,16.29

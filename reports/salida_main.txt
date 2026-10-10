@@ -1,0 +1,31 @@
+=== PASO 1: Datos ===
+Estaciones: 190 | Variables: 11
+
+=== PASO 2: Exploración ===
+Valores nulos: {'tiempo_espera_min': 3, 'sensibilidad_lluvia_pct': 4}
+
+=== PASO 3: Preprocesamiento (imputación + estandarización) ===
+Matriz procesada: (190, 11)
+
+=== PASO 4: Elección del número de grupos (k) ===
+ k  inercia  silueta  davies_bouldin  calinski_harabasz
+ 2  1419.46   0.4278          0.8295               88.8
+ 3   971.68   0.3463          1.1795              107.6
+ 4   682.97   0.4141          0.9113              127.7
+ 5   508.96   0.4296          0.9069              143.7
+ 6   486.15   0.3606          1.2487              121.4
+ 7   465.74   0.3145          1.4684              106.4
+ 8   449.53   0.2653          1.6745               94.9
+k elegido (máxima silueta): 5
+
+=== PASO 5: Entrenamiento de K-means ===
+Estaciones por grupo: {0: 25, 1: 50, 2: 45, 3: 35, 4: 35}
+
+=== PASO 6: Evaluación ===
+Silueta: 0.4296 | Davies-Bouldin: 0.9069 | Calinski-Harabasz: 143.7
+Jerárquico (Ward): silueta 0.4283 | ARI contra K-means: 0.9857
+Validación externa: ARI 1.0 | NMI 1.0
+
+=== PASO 7: Asignación de estaciones nuevas ===
+Estación grande de intercambio: {'grupo': 0, 'distancia_al_centroide': 0.757, 'distancias': {0: 0.757, 1: 6.207, 2: 5.102, 3: 6.163, 4: 5.79}}
+Estación en barrio periférico: {'grupo': 1, 'distancia_al_centroide': 0.277, 'distancias': {0: 6.411, 1: 0.277, 2: 3.718, 3: 2.855, 4: 3.44}}

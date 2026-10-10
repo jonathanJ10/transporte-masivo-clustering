@@ -1,0 +1,198 @@
+{
+  "k": 5,
+  "silueta": 0.4296,
+  "davies_bouldin": 0.9069,
+  "calinski_harabasz": 143.7,
+  "inercia": 508.96,
+  "tamanos": {
+    "0": 25,
+    "1": 50,
+    "2": 45,
+    "3": 35,
+    "4": 35
+  },
+  "silueta_por_grupo": {
+    "0": 0.538,
+    "1": 0.381,
+    "2": 0.484,
+    "3": 0.366,
+    "4": 0.416
+  },
+  "jerarquico": {
+    "silueta": 0.4283,
+    "davies_bouldin": 0.9093,
+    "ari_contra_kmeans": 0.9857,
+    "ari_contra_perfil_simulado": 0.9857
+  },
+  "ari_contra_perfil_simulado": 1.0,
+  "nmi_contra_perfil_simulado": 1.0,
+  "tabla_cruzada": {
+    "Comercial": {
+      "0": 0,
+      "1": 0,
+      "2": 45,
+      "3": 0,
+      "4": 0
+    },
+    "Industrial": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 35,
+      "4": 0
+    },
+    "Residencial": {
+      "0": 0,
+      "1": 50,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "Terminal": {
+      "0": 25,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "Universitaria": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 35
+    }
+  },
+  "estabilidad": {
+    "n_semillas": 10,
+    "ari_minimo": 1.0,
+    "ari_promedio": 1.0
+  },
+  "perfiles": {
+    "0": {
+      "n_estaciones": 25,
+      "pasajeros_pico_manana": 1534.52,
+      "pasajeros_pico_tarde": 1422.56,
+      "pasajeros_valle": 979.6,
+      "proporcion_fin_semana": 0.83,
+      "ocupacion_media_pct": 75.03,
+      "variabilidad_diaria": 0.22,
+      "tiempo_espera_min": 2.9,
+      "porcentaje_transbordos": 67.29,
+      "numero_rutas": 10.64,
+      "distancia_centro_km": 9.26,
+      "sensibilidad_lluvia_pct": 8.99
+    },
+    "1": {
+      "n_estaciones": 50,
+      "pasajeros_pico_manana": 913.7,
+      "pasajeros_pico_tarde": 430.82,
+      "pasajeros_valle": 197.48,
+      "proporcion_fin_semana": 0.75,
+      "ocupacion_media_pct": 54.02,
+      "variabilidad_diaria": 0.3,
+      "tiempo_espera_min": 6.17,
+      "porcentaje_transbordos": 12.35,
+      "numero_rutas": 2.88,
+      "distancia_centro_km": 11.1,
+      "sensibilidad_lluvia_pct": 7.88
+    },
+    "2": {
+      "n_estaciones": 45,
+      "pasajeros_pico_manana": 488.67,
+      "pasajeros_pico_tarde": 635.47,
+      "pasajeros_valle": 597.73,
+      "proporcion_fin_semana": 0.93,
+      "ocupacion_media_pct": 52.05,
+      "variabilidad_diaria": 0.22,
+      "tiempo_espera_min": 4.02,
+      "porcentaje_transbordos": 27.86,
+      "numero_rutas": 7.11,
+      "distancia_centro_km": 2.16,
+      "sensibilidad_lluvia_pct": 11.77
+    },
+    "3": {
+      "n_estaciones": 35,
+      "pasajeros_pico_manana": 1109.26,
+      "pasajeros_pico_tarde": 916.91,
+      "pasajeros_valle": 145.11,
+      "proporcion_fin_semana": 0.37,
+      "ocupacion_media_pct": 66.1,
+      "variabilidad_diaria": 0.19,
+      "tiempo_espera_min": 6.86,
+      "porcentaje_transbordos": 7.1,
+      "numero_rutas": 1.94,
+      "distancia_centro_km": 13.89,
+      "sensibilidad_lluvia_pct": 5.23
+    },
+    "4": {
+      "n_estaciones": 35,
+      "pasajeros_pico_manana": 764.11,
+      "pasajeros_pico_tarde": 819.83,
+      "pasajeros_valle": 397.51,
+      "proporcion_fin_semana": 0.33,
+      "ocupacion_media_pct": 58.65,
+      "variabilidad_diaria": 0.4,
+      "tiempo_espera_min": 5.21,
+      "porcentaje_transbordos": 17.7,
+      "numero_rutas": 4.11,
+      "distancia_centro_km": 4.9,
+      "sensibilidad_lluvia_pct": 16.29
+    }
+  },
+  "varianza_pca": [
+    39.2,
+    25.3
+  ],
+  "tabla_k": [
+    {
+      "k": 2,
+      "inercia": 1419.46,
+      "silueta": 0.4278,
+      "davies_bouldin": 0.8295,
+      "calinski_harabasz": 88.8
+    },
+    {
+      "k": 3,
+      "inercia": 971.68,
+      "silueta": 0.3463,
+      "davies_bouldin": 1.1795,
+      "calinski_harabasz": 107.6
+    },
+    {
+      "k": 4,
+      "inercia": 682.97,
+      "silueta": 0.4141,
+      "davies_bouldin": 0.9113,
+      "calinski_harabasz": 127.7
+    },
+    {
+      "k": 5,
+      "inercia": 508.96,
+      "silueta": 0.4296,
+      "davies_bouldin": 0.9069,
+      "calinski_harabasz": 143.7
+    },
+    {
+      "k": 6,
+      "inercia": 486.15,
+      "silueta": 0.3606,
+      "davies_bouldin": 1.2487,
+      "calinski_harabasz": 121.4
+    },
+    {
+      "k": 7,
+      "inercia": 465.74,
+      "silueta": 0.3145,
+      "davies_bouldin": 1.4684,
+      "calinski_harabasz": 106.4
+    },
+    {
+      "k": 8,
+      "inercia": 449.53,
+      "silueta": 0.2653,
+      "davies_bouldin": 1.6745,
+      "calinski_harabasz": 94.9
+    }
+  ]
+}

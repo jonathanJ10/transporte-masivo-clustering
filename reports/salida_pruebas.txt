@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/claude/transporte-masivo-clustering
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 18 items
+
+tests/test_pipeline.py::test_pt01_dataset_tiene_columnas_y_tamano PASSED [  5%]
+tests/test_pipeline.py::test_pt02_identificadores_unicos PASSED          [ 11%]
+tests/test_pipeline.py::test_pt03_dataset_sin_columna_de_perfil PASSED   [ 16%]
+tests/test_pipeline.py::test_pt04_generacion_reproducible PASSED         [ 22%]
+tests/test_pipeline.py::test_pt05_valores_dentro_de_rangos PASSED        [ 27%]
+tests/test_pipeline.py::test_pt06_existen_nulos_simulados PASSED         [ 33%]
+tests/test_pipeline.py::test_pt07_validar_detecta_columna_faltante PASSED [ 38%]
+tests/test_pipeline.py::test_pt08_validar_detecta_ids_duplicados PASSED  [ 44%]
+tests/test_pipeline.py::test_pt09_preprocesador_elimina_nulos_y_estandariza PASSED [ 50%]
+tests/test_pipeline.py::test_pt10_seleccion_de_k_en_rango PASSED         [ 55%]
+tests/test_pipeline.py::test_pt11_kmeans_asigna_todas_las_estaciones_sin_grupos_vacios PASSED [ 61%]
+tests/test_pipeline.py::test_pt12_calidad_de_la_silueta PASSED           [ 66%]
+tests/test_pipeline.py::test_pt13_agrupamiento_reproducible PASSED       [ 72%]
+tests/test_pipeline.py::test_pt14_recupera_los_perfiles_simulados PASSED [ 77%]
+tests/test_pipeline.py::test_pt15_asignacion_devuelve_grupo_valido PASSED [ 83%]
+tests/test_pipeline.py::test_pt16_asignacion_tolera_valores_faltantes PASSED [ 88%]
+tests/test_pipeline.py::test_pt17_asignacion_exige_todas_las_variables PASSED [ 94%]
+tests/test_pipeline.py::test_pt18_guardar_y_cargar_modelo PASSED         [100%]
+
+============================== 18 passed in 1.40s ==============================
