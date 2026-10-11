@@ -8,8 +8,8 @@ Con **K-means** se descubren perfiles de estaciones de un sistema de transporte 
 | Integrante | Rol principal |
 |---|---|
 | Johathan Granobles Penagos | Datos y generación del dataset |
-| [Integrante 2] | Preprocesamiento, elección de k y entrenamiento |
-| [Integrante 3] | Evaluación, pruebas y documentación |
+| Danilo Moreno | QA e Implementador |
+
 
 Docente: William Ruiz.
 
